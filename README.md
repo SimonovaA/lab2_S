@@ -27,36 +27,36 @@
 
 1. Установка
 ![1](https://user-images.githubusercontent.com/50047846/58338900-42d1b080-7e51-11e9-99cd-7b423b9e106e.png)
-![2]()
-![3]()
+![2](https://user-images.githubusercontent.com/50047846/58342272-e2467180-7e58-11e9-88fd-54c30c77d82e.png)
+![3](https://user-images.githubusercontent.com/50047846/58342277-e3779e80-7e58-11e9-8c70-8030098afcf6.png)
 ---
 2. Настройка RAID
-![4]()
+![4](https://user-images.githubusercontent.com/50047846/58342278-e3779e80-7e58-11e9-976b-83a7db80df4d.png)
 ---
 3. Настройка LVM
-![5]()
-![6]()
-![7]()
-![8]()
+![5](https://user-images.githubusercontent.com/50047846/58342279-e4103500-7e58-11e9-9f80-d409ee3c0b6f.png)
+![6](https://user-images.githubusercontent.com/50047846/58342280-e4103500-7e58-11e9-905a-145ee68c26a6.png)
+![7](https://user-images.githubusercontent.com/50047846/58342281-e4103500-7e58-11e9-8719-baaaff003657.png)
+![8](https://user-images.githubusercontent.com/50047846/58342282-e4103500-7e58-11e9-9abc-eacc5d42786b.png)
 ---
 4. Клонирование содержимого раздела boot с ssd1 на ssd2
-![9]()
+![9](https://user-images.githubusercontent.com/50047846/58342284-e4a8cb80-7e58-11e9-9dde-10c1b9c67035.png)
 ---
 5. Вывод fdisk -l
-![10]()
-![11]()
+![10](https://user-images.githubusercontent.com/50047846/58342285-e4a8cb80-7e58-11e9-8a04-a25e6b4f0e22.png)
+![11](https://user-images.githubusercontent.com/50047846/58342286-e4a8cb80-7e58-11e9-8067-2396cb6c3d33.png)
 ---
 6. Вывод lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
-![12]()
+![12](https://user-images.githubusercontent.com/50047846/58342287-e5416200-7e58-11e9-91da-edb7bc24408e.png)
 ---
 7. Установка grub на ssd2 и информация о текущем RAID. 
 cat /proc/mdstat показывает, что в raid участвуют оба диска.
-![13]()
+![13](https://user-images.githubusercontent.com/50047846/58342288-e5416200-7e58-11e9-9594-3f876941223c.png)
 ---
 8. Вывод команд pvs, lvs, vgs
-![14]()
-![15]()
-![16]()
+![14](https://user-images.githubusercontent.com/50047846/58342290-e5416200-7e58-11e9-9b5a-085e942dba93.png)
+![15](https://user-images.githubusercontent.com/50047846/58342291-e5d9f880-7e58-11e9-9886-fd2d149c75b1.png)
+![16](https://user-images.githubusercontent.com/50047846/58342292-e5d9f880-7e58-11e9-8839-bee0f2cde996.png)
 ---
 ---
 # Задание 2
